@@ -1,14 +1,24 @@
 apiVersion: v1
 entries:
   flask-app:
-  - apiVersion: v1
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-10-21T01:43:39.650602171+02:00"
+    created: "2023-11-03T23:24:30.893508955+01:00"
     description: A Helm chart for Flask Python application that uses postgres DB
-    digest: 2af7327c85bc897faeb4a633dd32b8388baa78ee21c6b8eb1d87222670cb1337
+    digest: aba4070d75c4282e5e7f1faadbeda5939d308c60ad000567ca1e59fffcc99d71
     name: flask-app
     type: application
     urls:
-    - flask-app-0.1.0.tgz
+    - https://mariano-italiano.github.io/helm/stable/flask-app-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2023-11-03T23:24:30.892927035+01:00"
+    description: A Helm chart for Flask Python application that uses postgres DB
+    digest: 7a8b4bf257f9ad4ad521603b645639ea4b1c0a028cb6df256f3240e187cd427b
+    name: flask-app
+    type: application
+    urls:
+    - https://mariano-italiano.github.io/helm/stable/flask-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-21T01:43:39.650120711+02:00"
+generated: "2023-11-03T23:24:30.892528093+01:00"
